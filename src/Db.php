@@ -30,6 +30,7 @@ abstract class Db
 
     final public function all()
     {
-        return $this->stmt->fetchAll();
+        $data = $this->stmt->fetchAll();
+        print_r($data);
     }
 }
