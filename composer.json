@@ -1,0 +1,17 @@
+{
+    "name": "bebos/db-bulider",
+    "description": "db builder",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bebos\\DbBulider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pierreemad93",
+            "email": "pierreemad93@outlook.com"
+        }
+    ],
+    "require": {}
+}
